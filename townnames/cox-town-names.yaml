@@ -1,0 +1,111 @@
+available: true
+id: 0
+mainset:
+- names:
+  - name: ''
+    probability: 75
+  - name: '@prefixes'
+    probability: 25
+- names:
+  - name: ' Cox'
+    probability: 50
+  - name: ' Thrust'
+    probability: 50
+  - name: ' Mafufda'
+    probability: 50
+  - name: ' Thrustomos'
+    probability: 50
+  - name: ' Markov'
+    probability: 50
+  - name: ' Halcyon'
+    probability: 50
+  - name: ' Peanut'
+    probability: 50
+  - name: ' Pronouns'
+    probability: 10
+  - name: ' Arma'
+    probability: 50
+  - name: ' Brap'
+    probability: 50
+- names:
+  - name: ''
+    probability: 50
+  - name: '@suffixes'
+    probability: 50
+- names:
+  - name: '@type'
+    probability: 25
+  - name: ''
+    probability: 75
+name: COX Town Names
+source: null
+subsets:
+- name: prefixes
+  parts:
+  - names:
+    - name: Fort
+      probability: 50
+    - name: North
+      probability: 50
+    - name: East
+      probability: 50
+    - name: South
+      probability: 50
+    - name: West
+      probability: 50
+    - name: Port
+      probability: 50
+    - name: Upper
+      probability: 50
+    - name: Lower
+      probability: 50
+    - name: Downtown
+      probability: 50
+    - name: Uptown
+      probability: 50
+- name: suffixes
+  parts:
+  - names:
+    - name: ington
+      probability: 50
+    - name: ing
+      probability: 50
+    - name: berg
+      probability: 50
+    - name: mire
+      probability: 50
+    - name: stov
+      probability: 50
+    - name: ham
+      probability: 50
+    - name: shire
+      probability: 50
+    - name: ton
+      probability: 50
+    - name: delphia
+      probability: 50
+    - name: ville
+      probability: 50
+    - name: '''s'
+      probability: 50
+    - name: town
+      probability: 50
+    - name: craft
+      probability: 50
+- name: type
+  parts:
+  - names:
+    - name: ' Airbase'
+      probability: 50
+    - name: ' Seabase'
+      probability: 50
+    - name: ' City'
+      probability: 50
+    - name: ' Township'
+      probability: 50
+    - name: ' State'
+      probability: 50
+    - name: ' District'
+      probability: 50
+    - name: ' Principality'
+      probability: 50
