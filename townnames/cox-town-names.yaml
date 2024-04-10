@@ -102,8 +102,6 @@ subsets:
       probability: 50
     - name: ville
       probability: 50
-    - name: '''s'
-      probability: 50
     - name: town
       probability: 50
     - name: craft
