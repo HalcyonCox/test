@@ -3,9 +3,9 @@ id: 0
 mainset:
 - names:
   - name: ''
-    probability: 75
+    probability: 50
   - name: '@prefixes'
-    probability: 25
+    probability: 50
 - names:
   - name: ' Cox'
     probability: 50
@@ -27,11 +27,13 @@ mainset:
     probability: 50
   - name: ' Brap'
     probability: 50
+  - name: ' Sad'
+    probability: 50
 - names:
   - name: ''
-    probability: 50
+    probability: 25
   - name: '@suffixes'
-    probability: 50
+    probability: 75
 - names:
   - name: '@type'
     probability: 25
@@ -63,6 +65,20 @@ subsets:
       probability: 50
     - name: Uptown
       probability: 50
+    - name: Cape
+      probability: 50
+    - name: Point
+      probability: 50
+    - name: Old
+      probability: 50
+    - name: New
+      probability: 50
+    - name: Saint
+      probability: 50
+    - name: San
+      probability: 50
+    - name: Little
+      probability: 50
 - name: suffixes
   parts:
   - names:
@@ -92,13 +108,15 @@ subsets:
       probability: 50
     - name: craft
       probability: 50
+    - name: ness
+      probability: 50
 - name: type
   parts:
   - names:
     - name: ' Airbase'
-      probability: 50
+      probability: 15
     - name: ' Seabase'
-      probability: 50
+      probability: 10
     - name: ' City'
       probability: 50
     - name: ' Township'
@@ -108,4 +126,12 @@ subsets:
     - name: ' District'
       probability: 50
     - name: ' Principality'
+      probability: 50
+    - name: ' Village'
+      probability: 50
+    - name: ' Outskirts'
+      probability: 50
+    - name: ' Central'
+      probability: 50
+    - name: ' Capital'
       probability: 50
