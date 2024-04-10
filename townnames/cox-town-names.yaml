@@ -8,27 +8,27 @@ mainset:
     probability: 50
 - names:
   - name: ' Cox'
-    probability: 50
+    probability: 1
   - name: ' Thrust'
-    probability: 50
+    probability: 1
   - name: ' Mafufda'
-    probability: 50
+    probability: 1
   - name: ' Thrustomos'
-    probability: 50
+    probability: 1
   - name: ' Markov'
-    probability: 50
+    probability: 1
   - name: ' Halcyon'
-    probability: 50
+    probability: 1
   - name: ' Peanut'
-    probability: 50
+    probability: 1
   - name: ' Pronouns'
-    probability: 10
+    probability: 1
   - name: ' Arma'
-    probability: 50
+    probability: 1
   - name: ' Brap'
-    probability: 50
+    probability: 1
   - name: ' Sad'
-    probability: 50
+    probability: 1
 - names:
   - name: ''
     probability: 25
@@ -46,90 +46,88 @@ subsets:
   parts:
   - names:
     - name: Fort
-      probability: 50
+      probability: 1
     - name: North
-      probability: 50
+      probability: 1
     - name: East
-      probability: 50
+      probability: 1
     - name: South
-      probability: 50
+      probability: 1
     - name: West
-      probability: 50
+      probability: 1
     - name: Port
-      probability: 50
+      probability: 1
     - name: Upper
-      probability: 50
+      probability: 1
     - name: Lower
-      probability: 50
+      probability: 1
     - name: Downtown
-      probability: 50
+      probability: 1
     - name: Uptown
-      probability: 50
+      probability: 1
     - name: Cape
-      probability: 50
+      probability: 1
     - name: Point
-      probability: 50
+      probability: 1
     - name: Old
-      probability: 50
+      probability: 1
     - name: New
-      probability: 50
+      probability: 1
     - name: Saint
-      probability: 50
+      probability: 1
     - name: San
-      probability: 50
+      probability: 1
     - name: Little
-      probability: 50
+      probability: 1
 - name: suffixes
   parts:
   - names:
     - name: ington
-      probability: 50
+      probability: 1
     - name: ing
-      probability: 50
+      probability: 1
     - name: berg
-      probability: 50
+      probability: 1
     - name: mire
-      probability: 50
+      probability: 1
     - name: stov
-      probability: 50
+      probability: 1
     - name: ham
-      probability: 50
+      probability: 1
     - name: shire
-      probability: 50
+      probability: 1
     - name: ton
-      probability: 50
+      probability: 1
     - name: delphia
-      probability: 50
+      probability: 1
     - name: ville
-      probability: 50
+      probability: 1
     - name: town
-      probability: 50
+      probability: 1
     - name: craft
-      probability: 50
+      probability: 1
     - name: ness
-      probability: 50
+      probability: 1
 - name: type
   parts:
   - names:
     - name: ' Airbase'
-      probability: 15
+      probability: 10
     - name: ' Seabase'
       probability: 10
     - name: ' City'
-      probability: 50
+      probability: 10
     - name: ' Township'
-      probability: 50
+      probability: 10
     - name: ' State'
-      probability: 50
+      probability: 10
     - name: ' District'
-      probability: 50
+      probability: 10
     - name: ' Principality'
-      probability: 50
+      probability: 10
     - name: ' Village'
-      probability: 50
+      probability: 10
     - name: ' Outskirts'
-      probability: 50
+      probability: 10
     - name: ' Central'
-      probability: 50
-    - name: ' Capital'
-      probability: 50
+      probability: 10
